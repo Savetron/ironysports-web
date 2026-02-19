@@ -76,8 +76,10 @@ export function Hero({ featuredPost, topPosts }: HeroProps) {
                                         </span>
                                     </div>
                                     <div className="flex flex-col">
-                                        <div className="text-[10px] font-bold text-[#E30613] uppercase mb-1">
-                                            {post.categories?.[0] || 'Gündem'}
+                                        <div className="flex items-center gap-2 mb-1">
+                                            <span className="text-[10px] font-bold text-white bg-[#E30613] px-1.5 py-0.5 rounded-sm uppercase">
+                                                {post.categories?.[0] || 'Gündem'}
+                                            </span>
                                         </div>
                                         <h3 className="text-sm font-bold text-slate-800 leading-snug group-hover:text-[#E30613] transition-colors line-clamp-2">
                                             {post.title}

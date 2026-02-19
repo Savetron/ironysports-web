@@ -19,8 +19,8 @@ export function Footer() {
                         <ul className="space-y-2 text-sm">
                             <li><Link href="/category/futbol" className="hover:text-white transition-colors">Futbol</Link></li>
                             <li><Link href="/category/basketbol" className="hover:text-white transition-colors">Basketbol</Link></li>
-                            <li><Link href="/category/transfer" className="hover:text-white transition-colors">Transfer Dosyası</Link></li>
-                            <li><Link href="/category/analiz" className="hover:text-white transition-colors">Maç Analizleri</Link></li>
+                            <li><Link href="/category/transfer" className="hover:text-white transition-colors">Transfer</Link></li>
+                            <li><Link href="/category/analiz" className="hover:text-white transition-colors">Analiz</Link></li>
                         </ul>
                     </div>
                     <div>

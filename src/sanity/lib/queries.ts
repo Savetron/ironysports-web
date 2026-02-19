@@ -37,14 +37,14 @@ export const HERO_POST_QUERY = defineQuery(`*[_type == "post" && defined(slug.cu
 }`);
 
 export const LATEST_POSTS_QUERY = defineQuery(`{
-  "sonDakika": *[_type == "post" && "son-dakika" in tags[]->slug.current] | order(publishedAt desc)[0...8]{
+  "sonDakika": *[_type == "post" && "son-dakika" in tags[]->slug.current] | order(publishedAt desc)[0...10]{
     _id,
     title,
     slug,
     publishedAt,
     "categories": categories[]->title
   },
-  "latest": *[_type == "post" && defined(slug.current)] | order(publishedAt desc)[0...8]{
+  "latest": *[_type == "post" && defined(slug.current)] | order(publishedAt desc)[0...10]{
     _id,
     title,
     slug,
