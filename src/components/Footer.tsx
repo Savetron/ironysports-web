@@ -5,7 +5,7 @@ export function Footer() {
     return (
         <footer className="bg-slate-900 text-slate-300 py-12 mt-20">
             <Container>
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div className="col-span-1 md:col-span-2">
                         <span className="text-2xl font-bold italic tracking-tighter text-white">
                             Irony<span className="text-blue-500">Sports</span>
@@ -21,14 +21,6 @@ export function Footer() {
                             <li><Link href="/category/basketbol" className="hover:text-white transition-colors">Basketbol</Link></li>
                             <li><Link href="/category/transfer" className="hover:text-white transition-colors">Transfer</Link></li>
                             <li><Link href="/category/analiz" className="hover:text-white transition-colors">Analiz</Link></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 className="text-white font-semibold mb-4">Kurumsal</h3>
-                        <ul className="space-y-2 text-sm">
-                            <li><Link href="/page/hakkimizda" className="hover:text-white transition-colors">Hakkımızda</Link></li>
-                            <li><Link href="/page/iletisim" className="hover:text-white transition-colors">İletişim</Link></li>
-                            <li><Link href="/page/kunye" className="hover:text-white transition-colors">Künye</Link></li>
                         </ul>
                     </div>
                 </div>
